@@ -1,0 +1,12 @@
+list:
+- Молоко
+- 2
+- 99
+- Petrov
+- 19.01.2022
+int: 336
+dict:
+  price_1: 100€
+  price_2: 100£
+  price_3: 100₽
+  price_4: 100¥
