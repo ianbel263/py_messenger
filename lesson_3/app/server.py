@@ -1,11 +1,14 @@
 """Программа-сервер"""
 
 import json
+import os
 import socket
 import sys
 
-from lesson_3.init.constants import *
-from lesson_3.init.utils import get_message, send_message
+sys.path.append(os.path.join(os.getcwd(), '..'))
+
+from init.constants import *
+from init.utils import get_message, send_message
 
 
 def process_client_message(message):

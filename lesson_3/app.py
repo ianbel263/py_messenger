@@ -1,13 +1,13 @@
 import sys
 
-from lesson_3.init.enums import Color
+from init.enums import Color
 
 MIN_PYTHON_VERSION = '3.10'
 
 if __name__ == '__main__':
     try:
         assert sys.version_info >= tuple(map(int, MIN_PYTHON_VERSION.split('.')))
-        from lesson_3.app.run import run
+        from app.run import run
 
         run()
     except AssertionError:

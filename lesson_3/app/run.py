@@ -2,7 +2,9 @@ import os
 import subprocess
 import sys
 
-from lesson_3.init.enums import Color, UserChoice
+sys.path.append(os.path.join(os.getcwd(), '..'))
+
+from init.enums import Color, UserChoice
 
 MAX_CLIENTS = 5
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))

@@ -1,13 +1,16 @@
 """Программа-клиент"""
 
 import json
+import os
 import socket
 import sys
 import time
 
-from lesson_3.init.constants import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
+sys.path.append(os.path.join(os.getcwd(), '..'))
+
+from init.constants import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
-from lesson_3.init.utils import get_message, send_message
+from init.utils import get_message, send_message
 
 
 def create_presence(account_name='Guest'):

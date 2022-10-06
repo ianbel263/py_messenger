@@ -1,7 +1,12 @@
 """Утилиты"""
 
 import json
-from lesson_3.init.constants import MAX_PACKAGE_LENGTH, ENCODING
+import os
+import sys
+
+sys.path.append(os.path.join(os.getcwd(), '..'))
+
+from init.constants import MAX_PACKAGE_LENGTH, ENCODING
 
 
 def get_message(client):
