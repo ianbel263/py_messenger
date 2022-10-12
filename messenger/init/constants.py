@@ -1,3 +1,5 @@
+import logging
+
 # Порт по умолчанию для сетевого взаимодействия
 DEFAULT_PORT = 7777
 # IP адрес по умолчанию для подключения клиента
@@ -19,3 +21,10 @@ ACCOUNT_NAME = 'account_name'
 PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
+
+# Логирование
+LOGGING_LEVEL = logging.DEBUG
+SERVER_LOG_DIR = 'logs/files/server'
+SERVER_LOG_FILE = 'server.log'
+CLIENT_LOG_DIR = 'logs/files/client'
+CLIENT_LOG_FILE = 'client.log'
