@@ -63,7 +63,7 @@ def main():
     try:
         transport.connect((server_address, server_port))
     except ConnectionRefusedError:
-        logger.critical('Приложение сервера не запущено')
+        logger.critical('Сервер не доступен')
         exit(1)
     message_to_server = create_presence()
     send_message(transport, message_to_server)

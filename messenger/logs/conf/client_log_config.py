@@ -4,7 +4,7 @@ import sys
 
 sys.path.append(os.path.join(os.getcwd(), '../..'))
 
-from logs.conf.logger import Logger
+from logs.logger import Logger
 from init.constants import CLIENT_LOG_DIR, CLIENT_LOG_FILE
 
 
