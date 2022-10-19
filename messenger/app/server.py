@@ -10,8 +10,10 @@ sys.path.append(os.path.join(os.getcwd(), '..'))
 from init.constants import *
 from init.utils import get_message, send_message
 from logs.conf.server_log_config import logger
+from logs.decorators import log
 
 
+@log
 def process_client_message(message):
     """
     Обработчик сообщений от клиентов, принимает словарь -

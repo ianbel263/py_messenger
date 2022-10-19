@@ -2,7 +2,7 @@ import logging
 import os
 import sys
 
-sys.path.append(os.path.join(os.getcwd(), '../..'))
+sys.path.append(os.path.join(os.getcwd(), '..'))
 
 from init.constants import LOGGING_LEVEL, SERVER_LOG_DIR, SERVER_LOG_FILE
 
@@ -13,7 +13,7 @@ class Logger:
         self.log_file = None
         # Подготовка имени файла для логирования
         root = os.path.dirname(os.path.abspath(__file__))
-        self.path = os.path.join(root, '../..', log_dir, log_file)
+        self.path = os.path.join(root, '..', log_dir, log_file)
 
         # создаём формировщик логов (formatter):
         self.formatter = logging.Formatter('%(asctime)s %(levelname)s %(filename)s %(message)s')
