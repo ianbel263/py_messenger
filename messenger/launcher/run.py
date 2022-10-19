@@ -2,6 +2,9 @@ import os
 import subprocess
 import sys
 import time
+import stat
+import signal
+from pprint import pprint
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
@@ -10,18 +13,19 @@ from init.enums import Color, UserChoice
 MAX_CLIENTS = 5
 
 THIS_DIR = os.path.dirname(__file__)
-PATH_TO_SERVER = os.path.join(THIS_DIR, 'server.py')
-PATH_TO_CLIENT = os.path.join(THIS_DIR, 'client.py')
+PATH_TO_SERVER = '../app/server.py'
+PATH_TO_CLIENT = '../app/client.py'
 
 
-def run_server(processes):
-    processes.append(subprocess.Popen(f"open -n -a Terminal.app '{PATH_TO_SERVER}'", shell=True))
+def get_subprocess(file_name, args=''):
+    time.sleep(1)
+    script_path = os.path.join(THIS_DIR, 'start_node.command')
+    file_full_path = os.path.join(THIS_DIR, file_name)
 
-
-def run_clients(processes):
-    for i in range(MAX_CLIENTS):
-        processes.append(subprocess.Popen(f"open -n -a Terminal.app '{PATH_TO_CLIENT}'", shell=True))
-        time.sleep(0.5)
+    with open(script_path, "w") as f:
+        f.write(f'#!/bin/sh\npython "{file_full_path}" {args}')
+    os.chmod(script_path, stat.S_IRWXU)
+    return subprocess.Popen(['/usr/bin/open', '-n', '-a', 'Terminal', script_path], shell=False)
 
 
 def run():
@@ -36,9 +40,9 @@ def run():
             case UserChoice.EXIT.value:
                 break
             case UserChoice.RUN.value:
-                run_server(processes)
-                time.sleep(1)
-                run_clients(processes)
+                processes.append(get_subprocess(PATH_TO_SERVER))
+                for i in range(MAX_CLIENTS):
+                    processes.append(get_subprocess(PATH_TO_CLIENT))
             case UserChoice.CLOSE.value:
                 while processes:
                     victim = processes.pop()
