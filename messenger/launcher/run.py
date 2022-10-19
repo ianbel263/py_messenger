@@ -1,10 +1,10 @@
+"""скрипт автоматизации запуска на macos"""
+
 import os
+import stat
 import subprocess
 import sys
 import time
-import stat
-import signal
-from pprint import pprint
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 

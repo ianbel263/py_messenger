@@ -184,3 +184,653 @@
 2022-10-19 11:29:51,837 INFO client.py На сервер направлено сообщение: {'action': 'presence', 'time': 1666168191.830944, 'user': {'account_name': 'Guest'}}
 2022-10-19 11:29:51,844 DEBUG decorators.py Функция process_ans вызвана из функции main
 2022-10-19 11:29:51,844 INFO client.py Получено сообщение от сервера 200 : OK
+2022-10-19 13:26:37,966 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:26:37,966 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:26:37,967 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:26:37,967 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:26:37,969 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 13:26:37,969 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 13:29:03,606 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:29:03,606 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:29:03,606 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:29:03,606 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:29:03,607 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 13:29:03,607 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 13:32:58,037 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:32:58,037 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:32:58,037 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:32:58,038 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:32:58,038 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:32:58,038 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:32:58,039 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 13:32:58,039 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 13:33:25,676 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:33:25,676 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:33:25,676 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:33:25,677 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:33:25,677 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:33:25,677 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:33:25,678 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 13:33:25,678 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 13:35:18,114 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:35:18,114 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:35:18,114 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:35:18,114 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:35:18,114 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:35:18,115 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:35:18,115 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 13:35:18,115 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 13:40:12,628 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:40:12,628 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:40:12,628 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:40:12,628 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:40:12,628 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:40:12,629 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:44:29,397 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:44:29,397 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:44:29,397 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:44:29,397 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:44:29,398 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:45:37,210 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:45:37,210 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:45:37,211 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:45:37,211 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:45:37,211 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:46:04,988 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:46:10,497 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:46:10,497 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:46:10,498 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение, либо не доступен.
+2022-10-19 13:48:15,007 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:48:15,007 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:48:15,008 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:48:15,008 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:48:15,008 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:49:30,423 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:49:30,423 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:49:30,424 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:49:30,424 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:49:30,424 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:49:30,925 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:50:12,693 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:50:12,693 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:50:12,693 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:50:12,693 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:50:12,694 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:50:13,195 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:50:22,707 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:50:22,707 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:50:22,707 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:50:22,707 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:50:22,707 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:50:23,209 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:53:34,433 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:53:34,433 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 13:53:34,433 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:53:34,434 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:53:34,434 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:53:53,651 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:53:53,652 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:53:53,652 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:53:53,652 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:53:53,652 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:53:54,152 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:54:08,504 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:54:08,504 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 13:54:08,504 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:54:08,504 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:54:08,504 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:54:09,006 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:54:59,306 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:54:59,306 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 13:54:59,306 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение, либо не доступен.
+2022-10-19 13:55:02,208 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:55:02,209 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 13:55:02,209 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение, либо не доступен.
+2022-10-19 13:55:05,303 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:55:05,303 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:55:05,303 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение, либо не доступен.
+2022-10-19 13:56:00,265 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:56:00,265 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:56:00,265 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение, либо не доступен.
+2022-10-19 13:56:21,233 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:56:21,233 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 13:56:21,234 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:56:21,234 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:56:21,234 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:56:21,737 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:56:21,737 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 13:56:21,737 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 13:56:28,725 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666176988.725698, 'account_name': 'Guest', 'mess_text': 'dfdd'}
+2022-10-19 13:56:28,726 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 13:56:28,726 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:27,663 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:58:27,663 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 13:58:27,663 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:58:27,663 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:58:27,664 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:28,165 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:58:28,165 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 13:58:28,165 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 13:58:30,249 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177110.249345, 'account_name': 'Guest', 'mess_text': 'sf'}
+2022-10-19 13:58:30,249 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 13:58:30,250 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:32,924 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177112.924813, 'account_name': 'Guest', 'mess_text': 'sdfdsfs'}
+2022-10-19 13:58:32,925 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 13:58:32,925 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:35,177 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177115.176973, 'account_name': 'Guest', 'mess_text': 'ererer'}
+2022-10-19 13:58:35,177 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 13:58:35,177 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:37,269 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177117.269821, 'account_name': 'Guest', 'mess_text': 'wwww'}
+2022-10-19 13:58:37,270 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 13:58:37,270 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:42,601 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 13:58:42,602 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 13:58:42,602 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 13:58:42,602 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 13:58:42,602 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:43,105 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:58:43,105 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 13:58:43,105 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 13:58:47,799 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177127.799888, 'account_name': 'Guest', 'mess_text': 'dsfsf'}
+2022-10-19 13:58:47,800 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 13:58:47,800 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:48,116 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:58:48,116 INFO client.py Получено сообщение от пользователя Guest:
+dsfsf
+2022-10-19 13:58:48,116 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 13:58:50,477 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177130.477294, 'account_name': 'Guest', 'mess_text': 'ddfdf'}
+2022-10-19 13:58:50,477 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 13:58:50,478 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:50,621 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:58:50,621 INFO client.py Получено сообщение от пользователя Guest:
+ddfdf
+2022-10-19 13:58:50,621 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 13:58:52,367 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177132.367286, 'account_name': 'Guest', 'mess_text': 'asss'}
+2022-10-19 13:58:52,367 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 13:58:52,368 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:52,627 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:58:52,628 INFO client.py Получено сообщение от пользователя Guest:
+asss
+2022-10-19 13:58:52,628 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 13:58:56,012 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177136.011965, 'account_name': 'Guest', 'mess_text': 'dfdfdfdfssdf'}
+2022-10-19 13:58:56,012 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 13:58:56,012 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 13:58:56,137 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 13:58:56,137 INFO client.py Получено сообщение от пользователя Guest:
+dfdfdfdfssdf
+2022-10-19 13:58:56,137 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 13:59:19,030 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:03:58,280 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:03:58,280 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:03:58,281 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:03:58,281 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:03:58,281 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:03:58,784 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:03:58,784 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:03:58,784 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:04:00,486 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177440.486377, 'account_name': 'Guest', 'mess_text': 'dfasdfd'}
+2022-10-19 14:04:00,486 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:04:00,487 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:04:01,834 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177441.834764, 'account_name': 'Guest', 'mess_text': 'asdfdsf'}
+2022-10-19 14:04:01,835 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:04:01,835 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:04:03,840 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:04:03,840 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 14:04:03,840 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:04:03,841 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:04:03,841 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:04:04,343 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:04:04,344 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:04:04,344 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:04:06,447 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177446.447449, 'account_name': 'Guest', 'mess_text': 'sdf'}
+2022-10-19 14:04:06,447 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:04:06,448 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:04:06,849 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:04:06,850 INFO client.py Получено сообщение от пользователя Guest:
+sdf
+2022-10-19 14:04:06,850 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:04:08,676 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177448.6761541, 'account_name': 'Guest', 'mess_text': 'sdf'}
+2022-10-19 14:04:08,676 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:04:08,676 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:04:08,854 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:04:08,854 INFO client.py Получено сообщение от пользователя Guest:
+sdf
+2022-10-19 14:04:08,854 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:04:12,658 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:04:25,551 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:04:25,551 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:04:25,552 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:04:25,552 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:04:25,552 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:04:26,055 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:04:26,055 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:04:26,055 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:04:27,868 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177467.8689432, 'account_name': 'Guest', 'mess_text': 'zdfgdfg'}
+2022-10-19 14:04:27,869 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:04:27,869 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:04:28,061 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:04:28,061 INFO client.py Получено сообщение от пользователя Guest:
+zdfgdfg
+2022-10-19 14:04:28,061 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:04:29,533 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177469.533667, 'account_name': 'Guest', 'mess_text': 'dsfgdg'}
+2022-10-19 14:04:29,534 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:04:29,534 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:04:29,564 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:04:29,564 INFO client.py Получено сообщение от пользователя Guest:
+dsfgdg
+2022-10-19 14:04:29,565 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:04:33,741 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:10:47,302 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:10:47,302 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:10:47,303 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:10:47,303 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:10:47,303 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:10:47,806 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:10:47,806 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:10:47,806 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:10:51,475 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:11:19,895 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:11:19,895 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:11:19,895 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:11:19,896 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:11:19,896 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:11:20,397 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:11:20,398 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:11:20,398 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:11:22,277 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:11:30,401 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:11:30,401 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 14:11:30,402 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:11:30,402 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:11:30,402 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:11:30,904 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:11:30,904 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:11:30,904 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:11:34,022 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:11:34,022 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:11:34,023 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:11:34,023 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:11:34,023 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:11:34,525 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:11:34,525 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:11:34,526 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:11:37,128 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177897.128337, 'account_name': 'Guest', 'mess_text': 'dfsfsf'}
+2022-10-19 14:11:37,128 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:11:37,129 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:11:37,534 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:11:37,534 INFO client.py Получено сообщение от пользователя Guest:
+dfsfsf
+2022-10-19 14:11:37,534 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:11:39,243 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177899.243666, 'account_name': 'Guest', 'mess_text': 'sdfsdf'}
+2022-10-19 14:11:39,244 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:11:39,244 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:11:39,538 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:11:39,538 INFO client.py Получено сообщение от пользователя Guest:
+sdfsdf
+2022-10-19 14:11:39,539 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:11:41,471 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:12:25,064 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:12:25,064 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:12:25,064 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение, либо не доступен.
+2022-10-19 14:12:29,598 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:12:29,598 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:12:29,598 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:12:29,598 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:12:29,598 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:12:30,100 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:12:30,100 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:12:30,100 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:12:32,547 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:12:34,852 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:12:34,852 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:12:34,852 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:12:34,852 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:12:34,852 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:12:35,355 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:12:35,355 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:12:35,355 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:12:37,294 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:12:38,815 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:12:38,815 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:12:38,815 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:12:38,815 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:12:38,815 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:12:39,317 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:12:39,318 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:12:39,318 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:12:40,939 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666177960.939347, 'account_name': 'Guest', 'mess_text': 'lll'}
+2022-10-19 14:12:40,939 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:12:40,940 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:12:44,199 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:15:38,327 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:15:38,327 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 14:15:38,327 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:15:38,327 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:15:38,328 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:15:38,829 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:15:38,830 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:15:38,830 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:15:41,790 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:15:41,790 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:15:41,791 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:15:41,791 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:15:41,791 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:15:42,293 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:15:42,293 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:15:42,293 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:15:44,670 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178144.67055, 'account_name': 'Guest', 'mess_text': 'fdgfdg'}
+2022-10-19 14:15:44,671 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:15:44,671 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:15:44,798 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:15:44,798 INFO client.py Получено сообщение от пользователя Guest:
+fdgfdg
+2022-10-19 14:15:44,798 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:15:47,505 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178147.505707, 'account_name': 'Guest', 'mess_text': 'fgdg'}
+2022-10-19 14:15:47,506 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:15:47,506 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:15:47,803 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:15:47,803 INFO client.py Получено сообщение от пользователя Guest:
+fgdg
+2022-10-19 14:15:47,804 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:15:49,754 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:16:22,078 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:16:22,078 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:16:22,078 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение, либо не доступен.
+2022-10-19 14:16:28,010 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:16:28,010 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:16:28,010 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:16:28,010 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:16:28,011 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:16:28,513 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:16:28,513 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:16:28,514 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:16:29,716 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178189.716028, 'account_name': 'Guest', 'mess_text': 'sfdg'}
+2022-10-19 14:16:29,716 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:16:29,716 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:16:31,740 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:18:49,419 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:18:49,419 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 14:18:49,419 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:18:49,420 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:18:49,420 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:18:49,922 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:18:49,922 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:18:49,922 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:18:51,780 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:18:51,780 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:18:51,781 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:18:51,781 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:18:51,781 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:18:52,283 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:18:52,283 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:18:52,283 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:18:53,109 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178333.109609, 'account_name': 'Guest', 'mess_text': 'sdfg'}
+2022-10-19 14:18:53,110 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:18:53,110 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:18:53,285 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:18:53,286 INFO client.py Получено сообщение от пользователя Guest:
+sdfg
+2022-10-19 14:18:53,286 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:18:54,639 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178334.639644, 'account_name': 'Guest', 'mess_text': 'sdfgfd'}
+2022-10-19 14:18:54,640 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:18:54,640 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:18:54,790 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:18:54,790 INFO client.py Получено сообщение от пользователя Guest:
+sdfgfd
+2022-10-19 14:18:54,790 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:18:57,496 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:19:41,367 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:19:41,367 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:19:41,367 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение, либо не доступен.
+2022-10-19 14:19:49,519 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:19:49,519 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:19:49,520 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:19:49,520 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:19:49,520 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:19:50,023 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:19:50,023 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:19:50,023 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:19:51,136 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:19:51,136 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 14:19:51,136 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:19:51,137 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:19:51,137 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:19:51,639 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:19:51,640 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:19:51,640 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:19:54,063 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178394.063879, 'account_name': 'Guest', 'mess_text': 'dgf'}
+2022-10-19 14:19:54,064 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:19:54,064 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:19:54,145 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:19:54,145 INFO client.py Получено сообщение от пользователя Guest:
+dgf
+2022-10-19 14:19:54,145 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:19:57,662 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:19:58,156 ERROR client.py Принято некорректное сообщение от удалённого компьютера.
+2022-10-19 14:23:07,950 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:23:07,950 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:23:07,950 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:23:07,950 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:23:07,951 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:23:08,453 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:23:08,453 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:23:08,454 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:23:09,772 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:23:09,772 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 14:23:09,772 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:23:09,772 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:23:09,773 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:23:10,274 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:23:10,274 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:23:10,275 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:23:11,793 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178591.793291, 'account_name': 'Guest', 'mess_text': 'asdfgasdf'}
+2022-10-19 14:23:11,793 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:23:11,794 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:23:12,281 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:23:12,281 INFO client.py Получено сообщение от пользователя Guest:
+asdfgasdf
+2022-10-19 14:23:12,281 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:23:13,662 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178593.66196, 'account_name': 'Guest', 'mess_text': 'dfg'}
+2022-10-19 14:23:13,662 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:23:13,662 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:23:13,784 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:23:13,785 INFO client.py Получено сообщение от пользователя Guest:
+dfg
+2022-10-19 14:23:13,785 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:23:15,979 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178595.978981, 'account_name': 'Guest', 'mess_text': 'dfg'}
+2022-10-19 14:23:15,979 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:23:15,979 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:23:16,290 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:23:16,290 INFO client.py Получено сообщение от пользователя Guest:
+dfg
+2022-10-19 14:23:16,290 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:23:19,399 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:23:19,799 ERROR client.py Принято некорректное сообщение от удалённого компьютера.
+2022-10-19 14:29:15,802 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:29:15,802 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:29:15,802 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:29:15,802 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:29:15,803 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:29:16,305 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:29:16,305 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:29:16,305 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:29:18,321 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666178958.321706, 'account_name': 'Guest', 'mess_text': 'dffg'}
+2022-10-19 14:29:18,322 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:29:18,322 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:29:20,391 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:29:27,691 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:29:27,691 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:29:27,692 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение, либо не доступен.
+2022-10-19 14:35:01,591 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:35:01,591 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:35:01,592 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:35:01,592 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:35:01,592 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:35:02,094 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:35:02,094 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:35:02,094 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:35:03,051 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179303.0509598, 'account_name': 'Guest', 'mess_text': 'sadfdsf'}
+2022-10-19 14:35:03,051 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:35:03,051 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:35:05,008 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:35:13,592 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:35:13,592 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:35:13,592 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:35:13,592 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:35:13,592 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:35:14,095 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:35:14,095 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:35:14,095 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:35:15,605 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179315.6058161, 'account_name': 'Guest', 'mess_text': 'rtuetu'}
+2022-10-19 14:35:15,606 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:35:15,606 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:35:17,764 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:35:34,174 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:35:34,174 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:35:34,174 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:35:34,174 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:35:34,174 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:35:34,677 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:35:34,677 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:35:34,677 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:35:41,504 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179341.504002, 'account_name': 'Guest', 'mess_text': 'asef'}
+2022-10-19 14:35:41,504 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:35:41,504 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:35:43,393 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:37:13,800 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:37:13,800 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:37:13,800 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:37:13,800 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:37:13,801 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:14,302 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:14,302 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:37:14,302 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:37:15,592 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:37:15,592 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 14:37:15,592 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:37:15,592 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:37:15,593 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:16,095 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:16,095 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:37:16,095 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:37:17,692 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179437.6925151, 'account_name': 'Guest', 'mess_text': 'dsfg'}
+2022-10-19 14:37:17,693 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:37:17,693 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:18,101 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:18,101 INFO client.py Получено сообщение от пользователя Guest:
+dsfg
+2022-10-19 14:37:18,102 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:37:19,109 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179439.109845, 'account_name': 'Guest', 'mess_text': 'dfgdfgfd'}
+2022-10-19 14:37:19,110 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:37:19,110 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:19,606 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:19,606 INFO client.py Получено сообщение от пользователя Guest:
+dfgdfgfd
+2022-10-19 14:37:19,606 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:37:21,043 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179441.043351, 'account_name': 'Guest', 'mess_text': 'sdfgfd'}
+2022-10-19 14:37:21,043 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:37:21,044 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:21,109 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:21,109 INFO client.py Получено сообщение от пользователя Guest:
+sdfgfd
+2022-10-19 14:37:21,109 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:37:23,430 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179443.43014, 'account_name': 'Guest', 'mess_text': 'dfgfdsg'}
+2022-10-19 14:37:23,430 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:37:23,430 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:23,615 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:23,615 INFO client.py Получено сообщение от пользователя Guest:
+dfgfdsg
+2022-10-19 14:37:23,616 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:37:25,745 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:37:29,885 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:37:29,885 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:37:29,885 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:37:29,885 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:37:29,885 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:30,388 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:30,388 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:37:30,388 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:37:31,122 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179451.122802, 'account_name': 'Guest', 'mess_text': 'gjghj'}
+2022-10-19 14:37:31,124 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:37:31,125 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:31,391 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:31,391 INFO client.py Получено сообщение от пользователя Guest:
+gjghj
+2022-10-19 14:37:31,392 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:37:32,497 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179452.4977841, 'account_name': 'Guest', 'mess_text': 'gfhjhgj'}
+2022-10-19 14:37:32,498 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:37:32,498 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:32,895 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:32,895 INFO client.py Получено сообщение от пользователя Guest:
+gfhjhgj
+2022-10-19 14:37:32,896 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:37:36,075 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179456.075579, 'account_name': 'Guest', 'mess_text': '!!!!'}
+2022-10-19 14:37:36,076 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:37:36,076 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:37:36,404 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:37:36,404 INFO client.py Получено сообщение от пользователя Guest:
+!!!!
+2022-10-19 14:37:36,404 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:37:38,415 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:40:37,724 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:40:37,724 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:40:37,725 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:40:37,725 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:40:37,725 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:40:38,228 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:40:38,228 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:40:38,228 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:40:40,283 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:40:47,066 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:40:47,066 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:40:47,066 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:40:47,066 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:40:47,066 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:40:47,568 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:40:47,569 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:40:47,569 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:40:48,902 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179648.9026601, 'account_name': 'Guest', 'mess_text': 'gg'}
+2022-10-19 14:40:48,903 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:40:48,903 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:40:50,432 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179650.4324968, 'account_name': 'Guest', 'mess_text': 'fgf'}
+2022-10-19 14:40:50,432 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:40:50,433 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:40:52,367 INFO client.py Завершение работы по команде пользователя.
+2022-10-19 14:40:59,243 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:40:59,243 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - listen
+2022-10-19 14:40:59,243 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:40:59,244 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:40:59,244 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:40:59,745 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:40:59,745 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:40:59,745 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:41:05,474 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-19 14:41:05,475 INFO client.py Запущен клиент с параметрами: адрес сервера - 127.0.0.1; порт - 7777; режим работы - send
+2022-10-19 14:41:05,475 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 14:41:05,475 DEBUG decorators.py Функция create_presence вызвана из функции main
+2022-10-19 14:41:05,475 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:41:05,978 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:41:05,978 DEBUG decorators.py Функция process_ans вызвана из функции main
+2022-10-19 14:41:05,978 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 14:41:06,722 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179666.7226062, 'account_name': 'Guest', 'mess_text': 'sdfdf'}
+2022-10-19 14:41:06,723 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:41:06,723 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:41:06,981 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:41:06,982 INFO client.py Получено сообщение от пользователя Guest:
+sdfdf
+2022-10-19 14:41:06,982 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:41:08,230 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179668.2303429, 'account_name': 'Guest', 'mess_text': 'sdfdsf'}
+2022-10-19 14:41:08,230 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:41:08,231 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:41:08,486 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:41:08,486 INFO client.py Получено сообщение от пользователя Guest:
+sdfdsf
+2022-10-19 14:41:08,486 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:41:09,738 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666179669.737961, 'account_name': 'Guest', 'mess_text': 'dsfsdfs'}
+2022-10-19 14:41:09,738 DEBUG decorators.py Функция create_message вызвана из функции main
+2022-10-19 14:41:09,738 DEBUG decorators.py Функция send_message вызвана из функции main
+2022-10-19 14:41:09,989 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-19 14:41:09,990 INFO client.py Получено сообщение от пользователя Guest:
+dsfsdfs
+2022-10-19 14:41:09,990 DEBUG decorators.py Функция get_message_from_server вызвана из функции main
+2022-10-19 14:41:11,875 INFO client.py Завершение работы по команде пользователя.
