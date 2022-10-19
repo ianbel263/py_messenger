@@ -1,24 +1,27 @@
 import os
 import subprocess
 import sys
+import time
 
-sys.path.append(os.path.join(os.getcwd(), '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from init.enums import Color, UserChoice
 
 MAX_CLIENTS = 5
-THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
-os.chdir(THIS_DIR)
+THIS_DIR = os.path.dirname(__file__)
+PATH_TO_SERVER = os.path.join(THIS_DIR, 'server.py')
+PATH_TO_CLIENT = os.path.join(THIS_DIR, 'client.py')
 
 
 def run_server(processes):
-    processes.append(subprocess.Popen('python server.py', shell=True))
+    processes.append(subprocess.Popen(f"open -n -a Terminal.app '{PATH_TO_SERVER}'", shell=True))
 
 
 def run_clients(processes):
     for i in range(MAX_CLIENTS):
-        processes.append(subprocess.Popen('python client.py', shell=True))
+        processes.append(subprocess.Popen(f"open -n -a Terminal.app '{PATH_TO_CLIENT}'", shell=True))
+        time.sleep(0.5)
 
 
 def run():
@@ -34,6 +37,7 @@ def run():
                 break
             case UserChoice.RUN.value:
                 run_server(processes)
+                time.sleep(1)
                 run_clients(processes)
             case UserChoice.CLOSE.value:
                 while processes:

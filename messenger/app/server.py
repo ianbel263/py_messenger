@@ -5,7 +5,7 @@ import os
 import socket
 import sys
 
-sys.path.append(os.path.join(os.getcwd(), '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from init.constants import *
 from init.utils import get_message, send_message

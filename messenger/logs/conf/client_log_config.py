@@ -2,7 +2,7 @@ import logging
 import os
 import sys
 
-sys.path.append(os.path.join(os.getcwd(), '../..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 
 from logs.logger import Logger
 from init.constants import CLIENT_LOG_DIR, CLIENT_LOG_FILE

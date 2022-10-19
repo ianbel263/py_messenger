@@ -6,7 +6,7 @@ import socket
 import sys
 import time
 
-sys.path.append(os.path.join(os.getcwd(), '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from init.constants import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
