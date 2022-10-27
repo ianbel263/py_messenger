@@ -1,13 +1,16 @@
 import sys
+import os
 
 from init.enums import Color
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 MIN_PYTHON_VERSION = '3.10'
 
 if __name__ == '__main__':
     try:
         assert sys.version_info >= tuple(map(int, MIN_PYTHON_VERSION.split('.')))
-        from app.run import run
+        from launcher.run import run
 
         run()
     except AssertionError:

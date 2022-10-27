@@ -16,7 +16,8 @@ ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
-SENDER = 'sender'
+SENDER = 'from'
+DESTINATION = 'to'
 
 # Прочие ключи, используемые в протоколе
 PRESENCE = 'presence'
@@ -24,6 +25,7 @@ RESPONSE = 'response'
 ERROR = 'error'
 MESSAGE = 'message'
 MESSAGE_TEXT = 'mess_text'
+EXIT = 'exit'
 
 # Режимы работы клиента
 DEFAULT_MODE = 'listen'
@@ -35,3 +37,12 @@ SERVER_LOG_DIR = 'logs/files/server'
 SERVER_LOG_FILE = 'server.log'
 CLIENT_LOG_DIR = 'logs/files/client'
 CLIENT_LOG_FILE = 'client.log'
+
+# Словари - ответы:
+# 200
+RESPONSE_200 = {RESPONSE: 200}
+# 400
+RESPONSE_400 = {
+    RESPONSE: 400,
+    ERROR: None
+}

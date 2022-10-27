@@ -665,3 +665,193 @@
 2022-10-19 14:41:09,989 DEBUG decorators.py Функция send_message вызвана из функции main
 2022-10-19 14:41:09,990 DEBUG decorators.py Функция send_message вызвана из функции main
 2022-10-19 14:41:11,993 INFO server.py Клиент ('127.0.0.1', 7777) отключился от сервера.
+2022-10-27 16:11:17,388 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-27 16:11:17,388 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-10-27 16:11:33,457 INFO server.py Установлено соедение с ПК ('127.0.0.1', 52919)
+2022-10-27 16:11:33,959 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:11:33,960 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666876293.4579, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:11:33,960 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:11:33,960 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:11:45,477 INFO server.py Клиент ('127.0.0.1', 7777) отключился от сервера.
+2022-10-27 16:12:27,574 INFO server.py Установлено соедение с ПК ('127.0.0.1', 53132)
+2022-10-27 16:12:28,076 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:12:28,076 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666876347.574081, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:12:28,076 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:12:28,077 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:12:44,604 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:12:44,604 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'I', 'to': 'q', 'time': 1666876364.3344011, 'mess_text': 'asdsa'}
+2022-10-27 16:12:44,605 INFO server.py Клиент ('127.0.0.1', 7777) отключился от сервера.
+2022-10-27 16:19:45,111 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-27 16:19:45,111 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-10-27 16:19:59,162 INFO server.py Установлено соедение с ПК ('127.0.0.1', 54989)
+2022-10-27 16:19:59,664 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:19:59,664 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666876799.1623092, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:19:59,665 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:19:59,665 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:20:16,189 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:20:16,189 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'i', 'to': 't', 'time': 1666876815.766633, 'mess_text': '111'}
+2022-10-27 16:20:16,189 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:21:18,247 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-27 16:21:18,247 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-10-27 16:21:39,087 INFO server.py Установлено соедение с ПК ('127.0.0.1', 55391)
+2022-10-27 16:21:39,589 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:21:39,589 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666876899.087011, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:21:39,589 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:21:39,590 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:21:52,102 INFO server.py Клиент ('127.0.0.1', 7777) отключился от сервера.
+2022-10-27 16:21:58,347 INFO server.py Установлено соедение с ПК ('127.0.0.1', 55472)
+2022-10-27 16:21:58,849 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:21:58,849 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666876918.3473878, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:21:58,850 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:21:58,850 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:22:16,213 INFO server.py Установлено соедение с ПК ('127.0.0.1', 55542)
+2022-10-27 16:22:16,714 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:22:16,714 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666876936.212974, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:22:16,714 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:22:16,715 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:22:25,100 INFO server.py Установлено соедение с ПК ('127.0.0.1', 55580)
+2022-10-27 16:22:25,602 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:22:25,602 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666876945.100543, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:22:25,603 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:22:25,603 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:22:39,968 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-27 16:22:39,968 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-10-27 16:22:46,408 INFO server.py Установлено соедение с ПК ('127.0.0.1', 55665)
+2022-10-27 16:22:46,909 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:22:46,909 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666876966.408421, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:22:46,910 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:22:46,910 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:22:58,425 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:22:58,426 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'q', 'to': 'q', 'time': 1666876977.9506292, 'mess_text': 'qqq'}
+2022-10-27 16:22:58,426 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:22:58,426 INFO server.py Связь с клиентом с именем q была потеряна
+2022-10-27 16:23:56,851 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-27 16:23:56,851 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-10-27 16:24:01,430 INFO server.py Установлено соедение с ПК ('127.0.0.1', 55998)
+2022-10-27 16:24:01,931 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:24:01,931 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666877041.43058, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:24:01,932 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:24:01,932 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:24:10,442 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:24:10,442 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'q', 'to': 'q', 'time': 1666877050.226284, 'mess_text': 'qqq'}
+2022-10-27 16:24:10,442 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:24:10,442 ERROR server.py Пользователь q не зарегистрирован на сервере, отправка сообщения невозможна.
+2022-10-27 16:24:10,443 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:24:36,487 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:24:36,487 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'q', 'to': 'w', 'time': 1666877076.2390552, 'mess_text': 'www'}
+2022-10-27 16:24:36,487 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:24:36,487 ERROR server.py Пользователь w не зарегистрирован на сервере, отправка сообщения невозможна.
+2022-10-27 16:24:36,487 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:32:00,386 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-27 16:32:00,386 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-10-27 16:32:33,951 INFO server.py Установлено соедение с ПК ('127.0.0.1', 58109)
+2022-10-27 16:32:34,453 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:32:34,453 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666877553.951634, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:32:34,453 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:32:34,454 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:32:59,377 INFO server.py Установлено соедение с ПК ('127.0.0.1', 58218)
+2022-10-27 16:32:59,878 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:32:59,879 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666877579.377464, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:32:59,879 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:32:59,880 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:33:06,757 INFO server.py Установлено соедение с ПК ('127.0.0.1', 58251)
+2022-10-27 16:33:07,259 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:33:07,259 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666877586.757801, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:33:07,259 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:33:07,260 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:33:28,448 INFO server.py Установлено соедение с ПК ('127.0.0.1', 58336)
+2022-10-27 16:33:28,949 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:33:28,949 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666877608.4480681, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:33:28,950 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:33:28,950 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:33:52,977 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:33:52,978 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'q', 'to': 'df', 'time': 1666877632.544385, 'mess_text': 'as'}
+2022-10-27 16:33:52,978 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:33:52,978 ERROR server.py Пользователь df не зарегистрирован на сервере, отправка сообщения невозможна.
+2022-10-27 16:33:52,978 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:34:07,004 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:34:07,004 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1666877646.675331, 'account_name': 'q'}
+2022-10-27 16:34:07,004 INFO server.py Клиент ('127.0.0.1', 7777) отключился от сервера.
+2022-10-27 16:34:35,881 INFO server.py Установлено соедение с ПК ('127.0.0.1', 58637)
+2022-10-27 16:34:36,382 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:34:36,383 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666877675.88105, 'user': {'account_name': 'Guest'}}
+2022-10-27 16:34:36,383 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:34:36,384 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:41:41,567 DEBUG decorators.py Функция parse_args вызвана из функции main
+2022-10-27 16:41:41,567 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-10-27 16:41:51,980 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60496)
+2022-10-27 16:41:52,481 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:41:52,482 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666878111.9802518, 'user': {'account_name': 'q'}}
+2022-10-27 16:41:52,482 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:41:52,482 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:42:02,871 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60541)
+2022-10-27 16:42:03,372 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:42:03,373 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666878122.871628, 'user': {'account_name': 'q'}}
+2022-10-27 16:42:03,373 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:42:03,374 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:42:07,506 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60558)
+2022-10-27 16:42:08,007 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:42:08,008 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666878127.5067809, 'user': {'account_name': 'w'}}
+2022-10-27 16:42:08,008 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:42:08,008 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:42:14,684 INFO server.py Установлено соедение с ПК ('127.0.0.1', 60587)
+2022-10-27 16:42:15,185 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:42:15,185 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666878134.684675, 'user': {'account_name': 'e'}}
+2022-10-27 16:42:15,186 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:42:15,186 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:42:31,710 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:42:31,710 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'q', 'to': 'w', 'time': 1666878151.469232, 'mess_text': 'www'}
+2022-10-27 16:42:31,710 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:42:31,711 DEBUG decorators.py Функция send_message вызвана из функции process_message
+2022-10-27 16:42:31,711 INFO server.py Отправлено сообщение пользователю w от пользователя q.
+2022-10-27 16:42:31,711 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:42:45,230 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:42:45,230 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'q', 'to': 'e', 'time': 1666878164.924244, 'mess_text': 'eee'}
+2022-10-27 16:42:45,231 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:42:45,231 DEBUG decorators.py Функция send_message вызвана из функции process_message
+2022-10-27 16:42:45,231 INFO server.py Отправлено сообщение пользователю e от пользователя q.
+2022-10-27 16:42:45,232 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:43:08,765 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:43:08,766 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'w', 'to': 'q', 'time': 1666878188.66224, 'mess_text': 'qqq'}
+2022-10-27 16:43:08,766 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:43:08,766 DEBUG decorators.py Функция send_message вызвана из функции process_message
+2022-10-27 16:43:08,766 INFO server.py Отправлено сообщение пользователю q от пользователя w.
+2022-10-27 16:43:08,767 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:43:17,276 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:43:17,276 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1666878196.785096, 'account_name': 'w'}
+2022-10-27 16:43:17,277 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:43:34,305 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:43:34,306 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'q', 'to': 'w', 'time': 1666878213.908323, 'mess_text': 'wqwqw'}
+2022-10-27 16:43:34,306 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:43:34,306 ERROR server.py Пользователь w не зарегистрирован на сервере, отправка сообщения невозможна.
+2022-10-27 16:43:34,306 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:43:49,828 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:43:49,829 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'q', 'to': 'e', 'time': 1666878229.366336, 'mess_text': 'eeeweasdv asda ыавыф'}
+2022-10-27 16:43:49,829 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:43:49,829 DEBUG decorators.py Функция send_message вызвана из функции process_message
+2022-10-27 16:43:49,830 INFO server.py Отправлено сообщение пользователю e от пользователя q.
+2022-10-27 16:43:49,830 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:43:56,844 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:43:56,845 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1666878236.724118, 'account_name': 'q'}
+2022-10-27 16:43:56,845 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:44:44,904 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:44:44,904 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'e', 'to': 'sdf', 'time': 1666878284.807965, 'mess_text': 'asdas'}
+2022-10-27 16:44:44,905 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:44:44,905 ERROR server.py Пользователь sdf не зарегистрирован на сервере, отправка сообщения невозможна.
+2022-10-27 16:44:44,905 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:47:27,598 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:47:27,598 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1666878447.250188, 'account_name': 'e'}
+2022-10-27 16:47:27,598 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:48:58,918 INFO server.py Установлено соедение с ПК ('127.0.0.1', 62246)
+2022-10-27 16:48:59,419 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:48:59,420 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1666878538.918315, 'user': {'account_name': 'q'}}
+2022-10-27 16:48:59,420 DEBUG decorators.py Функция send_message вызвана из функции process_client_message
+2022-10-27 16:48:59,420 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:49:06,933 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:49:06,934 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'q', 'to': 'asdsaD', 'time': 1666878546.882763, 'mess_text': 'asd'}
+2022-10-27 16:49:06,934 DEBUG decorators.py Функция process_client_message вызвана из функции main
+2022-10-27 16:49:06,934 ERROR server.py Пользователь asdsaD не зарегистрирован на сервере, отправка сообщения невозможна.
+2022-10-27 16:49:06,935 DEBUG decorators.py Функция process_message вызвана из функции main
+2022-10-27 16:49:11,444 DEBUG decorators.py Функция get_message вызвана из функции main
+2022-10-27 16:49:11,445 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1666878551.4052029, 'account_name': 'q'}
+2022-10-27 16:49:11,445 DEBUG decorators.py Функция process_client_message вызвана из функции main
