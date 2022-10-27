@@ -1,24 +1,31 @@
+"""скрипт автоматизации запуска на macos"""
+
 import os
+import stat
 import subprocess
 import sys
+import time
 
-sys.path.append(os.path.join(os.getcwd(), '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from init.enums import Color, UserChoice
 
 MAX_CLIENTS = 5
-THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
-os.chdir(THIS_DIR)
-
-
-def run_server(processes):
-    processes.append(subprocess.Popen('python server.py', shell=True))
+THIS_DIR = os.path.dirname(__file__)
+PATH_TO_SERVER = '../app/server.py'
+PATH_TO_CLIENT = '../app/client.py'
 
 
-def run_clients(processes):
-    for i in range(MAX_CLIENTS):
-        processes.append(subprocess.Popen('python client.py', shell=True))
+def get_subprocess(file_name, args=''):
+    time.sleep(1)
+    script_path = os.path.join(THIS_DIR, 'start_node.command')
+    file_full_path = os.path.join(THIS_DIR, file_name)
+
+    with open(script_path, "w") as f:
+        f.write(f'#!/bin/sh\npython "{file_full_path}" {args}')
+    os.chmod(script_path, stat.S_IRWXU)
+    return subprocess.Popen(['/usr/bin/open', '-n', '-a', 'Terminal', script_path], shell=False)
 
 
 def run():
@@ -33,8 +40,9 @@ def run():
             case UserChoice.EXIT.value:
                 break
             case UserChoice.RUN.value:
-                run_server(processes)
-                run_clients(processes)
+                processes.append(get_subprocess(PATH_TO_SERVER))
+                for i in range(MAX_CLIENTS):
+                    processes.append(get_subprocess(PATH_TO_CLIENT))
             case UserChoice.CLOSE.value:
                 while processes:
                     victim = processes.pop()
